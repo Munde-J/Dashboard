@@ -9,9 +9,6 @@ function App() {
   return (
     <div className="App">
      <Login/>
-      {/* <div className='container'>
-        <h1>Login</h1>
-      </div> */}
     </div>
   );
 }
