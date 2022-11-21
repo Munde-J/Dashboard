@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './login.css'
+import { Link } from 'react-router-dom';
 import person from '../images/person.png'
 import email from '../images/email.png'
 import password from '../images/password.png'
@@ -71,12 +72,16 @@ function Login (){
                         {errorPassword && <i style={{fontSize:"11px", color:"red"}}>Password must be more than 8 characters</i>}
                     </div>
                     <div className='loginbtn'>
-                    <button disabled={errorEmail && errorPassword} >Login</button>
+                 <Link exact to='/dashboard'>
+                      <a href='/dashboard'>
+                    <button disabled={errorEmail && errorPassword}  >Login</button>
+                    </a>
+                    </Link>
                     </div>
 
-                        <p className='link'>
+                        {/* <p className='link'>
                             <a href='#'>Forgot password?</a> Or <a href='#'>Sign Up</a>
-                        </p>
+                        </p> */}
                    
                 </div>
             </div>

@@ -1,0 +1,107 @@
+.about h1{
+    margin-left: 300px;
+ margin-top: -160px;
+}
+
+
+.cards{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100%;
+    gap: 200px;
+    padding: 20%;
+
+}
+.card1{
+
+    background-color: white;
+    width: 140px;
+    padding: 50%;
+    box-shadow: 4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+}
+.card2{
+    background-color: white;
+    width: 140px;
+    padding: 50%;
+    box-shadow:4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+}
+.cards .card3{
+    background-color: white;
+    width: 140px;
+    padding: 50%;
+    box-shadow: 4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+    .cards{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 100%;
+    
+        padding-bottom: 20%;
+        padding-top: -20%;
+        gap: 20px;
+        padding: 20%;
+    
+    }
+    .card1{
+    
+        background-color: white;
+        width: 140px;
+        padding: 50%;
+        box-shadow: 4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+    }
+    .card2{
+        background-color: white;
+        width: 140px;
+        padding: 50%;
+        box-shadow:4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+    }
+    .cards .card3{
+        background-color: white;
+        width: 140px;
+        padding: 50%;
+        box-shadow: 4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+        border-radius: 10px;
+    }
+    
+    
+    
+    @media only screen and (max-width: 320px) {
+    
+    }
+    @media only screen and (min-width: 990px) and (max-width: 1300px) {
+
+        
+    }
+    @media only screen and (max-width: 990px) {
+
+        
+    }
+    @media only screen and (max-width: 768px) {
+    }
+    @media only screen and (max-width: 600px){
+    }
+    @media only screen and (max-width: 425px) {
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1300px) {
+}
+@media only screen and (max-width: 990px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 600px){
+}
+@media only screen and (max-width: 425px) {
+}
