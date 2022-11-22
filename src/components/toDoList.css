@@ -5,29 +5,37 @@ h1 {
   .todo-list {
     width: 300px;
     margin: 60px auto;
+    
+    
   }
   form, .todo {
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
   }
   form {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-top: 200px;
+    
+    
   }
   form input {
     padding: 4px 8px;
-    flex-grow: 1;
+    flex-grow: 2;
     margin-right: 16px;
+    
   }
   .todo {
     display: flex;
     flex-direction: column;
+    
   }
   
   button {
     font-size: 16px;
-    background-color: rgb(217, 60, 35);
+    background-color:#f6ac23;
+
     color: #fff;
     border-radius: 8px;
     border: none;
@@ -35,10 +43,9 @@ h1 {
     cursor: pointer;
   }
   button:hover {
-    background-color: rgb(173, 47, 28);
-  }
+    background: #03AA03;  }
   button:active {
-    background-color: rgb(130,35,21);
+    background-color: #03AA03;
   }
   button:focus {
     outline: 0;
@@ -48,9 +55,12 @@ h1 {
     transform: scale(1.8) translateY(1px);
     margin: 0 16px 0 0;
     cursor: pointer;
+    
+    
   }
   .todo-text input {
     padding: 4px;
+    
   }
   .todo-text {
     font-size: 24px;
@@ -69,6 +79,14 @@ h1 {
   }
 
   .app{
-    margin-left: 259px;
-    padding: 5%;
+    margin-left: 299px;
+ 
+    color: black;
+    box-shadow: 4px 8px 4px 8px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+    
+    
+  
   } 

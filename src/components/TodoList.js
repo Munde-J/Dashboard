@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from './sidebar';
 import './toDoList.css';
 
-export default function TodoList() {
+ function TodoList() {
     const [todos, setTodos] = useState([])
     const [task, setTask] = useState('')
     const [taskEditing, setTaskEditing] = useState(null)
@@ -52,9 +52,12 @@ export default function TodoList() {
     }
 
   return (
-    
+    <div>
+    <div>
+       <Sidebar/>
+    </div>
     <div className='app'>
-      <Sidebar/>
+    
     <form className='todo-form' onSubmit={handleSubmit}>
     
     <input className='add-task' type='text' placeholder = "Add task" value={task} onChange={(e) => setTask(e.target.value)}/>
@@ -77,4 +80,6 @@ export default function TodoList() {
       </div> )}
       
     </div>
+    </div>
   );};
+  export default TodoList;

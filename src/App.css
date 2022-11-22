@@ -9,13 +9,15 @@
 .main{
   width: 100%;
   padding: 20px;
+  color: black;
 }
 .sidebar{
-  background-color: rgb(58, 29, 29);
-  color: aqua;
-  height: 100vh;
+  background-color: black;
+  color: #fff;
+  height: 110vh;
   width: 280px;
   transition: all 0.5s;
+  margin-bottom: -70%;
 }
 .top-section{
   /* display: flex; */
@@ -39,13 +41,13 @@
   transition: all 0.5s;
 }
 .link:hover{
-  background: rgb(0, 217, 255);
-  color: black;
+  background: #03AA03;
+  color: rgb(253, 252, 252);
   transition: all 0.5s;
 }
 .active{
-  background: rgb(0, 255, 208);
-  color: black;
+  background: #f6ac23;
+  color: rgb(250, 248, 248);
 }
 .link, .link-text {
   font-size: 20px;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './login.css'
 import { Link } from 'react-router-dom';
-import person from '../images/person.png'
-import email from '../images/email.png'
+import person from '../images/person.png';
+import email from '../images/email.png';
 import password from '../images/password.png'
 
 
@@ -59,13 +59,11 @@ function Login (){
                 <div>
                     <h1>Login</h1>
                     <div>
-                    {/* <p2 className='email'>Email</p2> */}
                         <img src={email} alt='email' className='mail'/>
                         <input name='email' onChange={authenticate} type='text' placeholder='Enter email address'className='name'/>
                         {errorEmail && <i style={{fontSize:"11px", color:"red"}}>Valid email is required</i>}
                     </div>
                     <div className='passwordinput'>
-                    {/* <p2 className='email'>Password</p2> */}
 
                         <img src={password} alt='password' className='mail'/>
                         <input name='password' onChange={validatePassword} type='password' placeholder='Enter password'className='name'/>
